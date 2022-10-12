@@ -14,7 +14,7 @@
 
 * Import: `from SPISEClassifier import SPISEClassifier`
 
-* Train: `fit(X, y)`, with target $y_i \in \{0, 1\}$ as the labels ($0$ and $1$ are minority and majoirty class labels, respectively). 
+* Train: `fit(X, y)`, with target $y_i \in \{0, 1\}$ as the labels ($y = 0$ and $y = 1$ denote minority and majoirty class labels, respectively). 
 
 * Predict: `predict(X)` (hard prediction), `predict_proba(X)` (probalistic prediction).
 
