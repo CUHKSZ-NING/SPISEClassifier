@@ -22,4 +22,4 @@
     1. `base_estimators`: classifier object, "candidate classifier for SPISEClassifier"
     2. `n_estimators`: int, `default=10`, "the number of training rounds $\alpha$ for SPISEClassifier"
     3. `n_subsets`: int, `default=3`, "the number of subsets $q$ selected in each round"
-    4. `n_entries`: int, `default=3`, "the number of non-zeros entries in each colomn of the sparse projection matrix $\textbf{M}$"
+    4. `n_entries`: int, `default=3`, "the number of non-zeros entries in each colomn of the projection matrix $\textbf{M}$"
