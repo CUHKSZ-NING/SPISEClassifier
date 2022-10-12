@@ -15,12 +15,12 @@
 
 * Import: `from SPISEClassifier import SPISEClassifier`
 
-* Train: `fit(X, y)`, with target $y_i \in \{0, 1\}$ as the labels.
+* Train: `fit(X, y)`, with target $y_i \in \{0, 1\}$ as the labels ($0$ and $1$ are minority and majoirty class labels, respectively). 
 
 * Predict: `predict(X)` (hard prediction), `predict_proba(X)` (probalistic prediction).
 
 * Parameters: 
-    1. `base_estimators`: dict, `default={'DT': DecisionTreeClassifier()}`, candidate classifier set $\mathcal{C}$, should have predict_proba() function"
-    2. `n_estimators`: int, `default=30`, "the number of EHMCs $n$ in the FEHC"
-    3. `population`: int, `default=10`, "the population size $\theta_P$ of the MCGA"
-    4. `iteration`: int, `default=5`, "the number of iteration rounds $\theta_I$ of the MCGA"
+    1. `base_estimators`: classifier object, "candidate classifier for SPISEClassifier"
+    2. `n_estimators`: int, `default=10`, "the number of training rounds $\alpha$ for SPISEClassifier"
+    3. `n_subsets`: int, `default=3`, "the number of subsets $q$ selected in each round"
+    4. `n_entries`: int, `default=3`, "the number of non-zeros entries in each colomn of the sparse projection matrix $\textbf{M}$"
