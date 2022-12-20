@@ -7,7 +7,7 @@ from infinite_selection import InfFS
 from scipy.stats import spearmanr
 
 
-class SPISENovel(object):
+class SPISEClassifier(object):
     def __init__(self, base_estimator=None, n_estimators=10, n_subsets=3, n_entries=3):
         self.base_estimator = deepcopy(base_estimator)
         self.n_estimators = n_estimators
