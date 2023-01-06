@@ -1,6 +1,6 @@
 # Sparse-Projection-Infinite-Selection-Ensemble (SPISE)
 
-* Code for the manuscript "Sparse Projection Infinite Selection Ensemble for Imbalanced Classification" (In Submission)
+* Code for the manuscript "Sparse Projection Infinite Selection Ensemble for Imbalanced Classification" (Knowledge-Based Systems'22)
 
 * Required Python 3 packages:
     1. numpy==1.21.5
